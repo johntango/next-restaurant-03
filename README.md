@@ -1,4 +1,6 @@
 #Next-React Frontend for Restaurants
+Exercise03 is full rendering
+<img src = 'restaurants.png'>
 
 index3.js (Data is hardcoded)
 index.js (Get data from Strapi using Apollo and GraphQL)
