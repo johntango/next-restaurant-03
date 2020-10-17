@@ -34,8 +34,8 @@ function RestaurantList(props){
   if (!data) return <p>Not found</p>;
   console.log(data.restaurants)
 
-  const searchQuery = data.restaurants.filter((query) =>
-  query.name.toLowerCase().includes(props.search)
+  const searchQuery = data.restaurants.filter((res) =>
+  res.name.toLowerCase().includes(props.search)
 );
   // set id for first restaurant
   let restId = searchQuery[0].id;

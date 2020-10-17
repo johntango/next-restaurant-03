@@ -1,23 +1,13 @@
-
-import {useQuery,ApolloProvider,InMemoryCache} from '@apollo/client';
+// index.js
+import {useQuery,ApolloProvider,InMemoryCache} 
+from '@apollo/client';
 import RestaurantList from './restaurantList';
 import client from './client';
-import Dishes from './dishes';
 import {useState} from 'react'
-
 import {
-    Button,
-    Card,
-    CardBody,
-    Input,
-    InputGroupAddon,
-    InputGroup,
-    Container,
-    Col,
-    Row,
-  } from "reactstrap";
+  InputGroup, InputGroupAddon,Input} from "reactstrap";
 function Home(){
-    const [query,setQuery] = useState("");
+  const [query, setQuery] = useState("");
     return (
         <ApolloProvider client={client}>
           <div className="search">
@@ -32,7 +22,6 @@ function Home(){
                 />
                 </InputGroup>
             </div>
-            <br></br>
             <RestaurantList search={query} />
         </ApolloProvider>
     )
