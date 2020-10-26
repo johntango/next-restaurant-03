@@ -1,4 +1,6 @@
 #Next-React Frontend for Restaurants
+use yarn and then yarn dev to run the code
+Do NOT do a yarn build since we are not going to deploy it anywhere
 Exercise03 is full rendering
 <img src = 'restaurants.png'>
 
