@@ -1,7 +1,6 @@
 import {useRouter} from "next/router"
 import styles from '../../styles/Home.module.css'
 import {gql,useQuery} from '@apollo/client';
-import client from "./client" 
 import {useState} from 'react'
 
 import {
