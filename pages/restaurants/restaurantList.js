@@ -1,8 +1,8 @@
 import {gql,useQuery} from '@apollo/client';
-import Link from "next/Link"
-import Dishes from "./dishes"
+import Link from "next/link"
+import Dishes from "../../components/dishes"
 import {useState} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
   Button,
   Card,
